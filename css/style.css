@@ -1,0 +1,30 @@
+.navbar-collapse {
+    flex-grow: 0 !important;
+    font-size: 1.1rem !important;
+    font-weight: 500;
+}
+
+.nav-img {
+    width: 11rem;
+}
+
+.dropdown-item:hover {
+    background-color: #413960 !important;
+    color: #fff !important;
+}
+
+.sign-in-btn {
+    border-radius: 25px;
+    color: #fff;
+    background-color: #3daf3d;
+    padding: 10px 20px;
+    border: none;
+
+    margin: 0px 5px;
+}
+
+.sign-in-btn:hover {
+    background-color: #413960;
+    color: #fff;
+    transition: 0.2s;
+}

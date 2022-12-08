@@ -5,14 +5,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Electronic School</title>
+    <title> E-School</title>
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="icons/Logo.png" type="image/x-icon">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css stylesheet -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap stylesheet -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
 </head>
 
 <body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
+            <div class="container-fluid nav-fluid">
 
+                <a class="navbar-brand" href="index.html">
+                    <img src="icons/Logo.png" class="nav-img" alt="Image is not loaded">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Books</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Courses
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Alphabet</a></li>
+                                <li><a class="dropdown-item" href="#">Botany</a></li>
+                                <li><a class="dropdown-item" href="#">CSE</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Others</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="sign-in-btn">Sign in </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <!-- Js stylsheet -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
