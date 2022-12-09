@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Poppins:wght@500&family=Roboto+Slab&family=Roboto:wght@500&display=swap');
+
+/* 
+font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif; */
+html {
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
 .navbar-collapse {
     flex-grow: 0 !important;
     font-size: 1.1rem !important;
@@ -5,7 +16,11 @@
 }
 
 .nav-img {
-    width: 11rem;
+    width: 12rem;
+}
+
+.navbar-nav {
+    gap: 1.5rem !important;
 }
 
 .dropdown-item:hover {
@@ -13,7 +28,7 @@
     color: #fff !important;
 }
 
-.sign-in-btn {
+.useful-btn {
     border-radius: 25px;
     color: #fff;
     background-color: #3daf3d;
@@ -23,8 +38,12 @@
     margin: 0px 5px;
 }
 
-.sign-in-btn:hover {
+.useful-btn:hover {
     background-color: #413960;
     color: #fff;
     transition: 0.2s;
+}
+
+.banner-row {
+    margin: 5rem 0 1rem 0 !important;
 }
