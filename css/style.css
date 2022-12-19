@@ -10,6 +10,10 @@ font-family: 'Nunito', sans-serif;
     box-sizing: border-box !important;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 /* -------navbar styles-------- */
 
 .navbar-collapse {
@@ -104,7 +108,13 @@ font-family: 'Nunito', sans-serif;
     width: 20%;
 }
 
+.footer .row div a {
+    color: #c7c5c5 !important;
+}
 
+.footer .row div a:hover {
+    color: #fff !important;
+}
 
 
 
