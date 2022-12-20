@@ -12,6 +12,7 @@ font-family: 'Nunito', sans-serif;
 
 a {
     text-decoration: none !important;
+    display: block !important;
 }
 
 /* -------navbar styles-------- */
@@ -104,6 +105,11 @@ a {
 
 }
 
+.testimonial {
+    width: 75%;
+
+}
+
 .img-testi {
     width: 20%;
 }
@@ -119,18 +125,62 @@ a {
 
 
 
-
-
-
-
 /* -----------media query-------- */
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 300px) {
+    html {
+        font-size: 85%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    html {
+        font-size: 95%;
+    }
+
     .testi-div {
         flex-direction: column !important;
     }
 
     .img-testi {
         width: 40%;
+    }
+
+    .footer div .row div {
+        text-align: center;
+
+    }
+
+
+    .testimonial {
+        width: 95%;
+
+    }
+}
+
+
+@media (min-width: 0px) and (max-width: 575px) {
+    html {
+
+        font-size: 90%;
+    }
+
+    .footer div .row div a {
+
+        display: inherit !important;
+    }
+
+    .testimonial {
+        width: 97%;
+
+    }
+
+    .testi-div {
+
+        padding: 15px;
+    }
+
+    .img-testi {
+        width: 60%;
     }
 }
